@@ -12,14 +12,14 @@ export function Senha() {
                 <p className='textSeja'>Seja bem-vindo(a)!</p>
                 <p className='textCampos'>Escolha uma senha</p>
             </div>
-            <form className='formSenha'>
+            <div className='formSenha'>
                 <label className='textNameSenha'>Senha
                     <input type="password" placeholder='******' name='password'/>
                 </label>
                 <label className='textNameSenha'>Confirmar senha
                     <input type="password" placeholder='******' name='password'/>
                 </label>
-            </form>
+            </div>
             <Link className='btnSenha' to='/'>Cadastrar <img className='MaskSenha' src={Mask} /></Link>
             <div className='regras'>
                 <p><span>*</span>Precisa no mínimo 8 digitos</p>
