@@ -35,6 +35,12 @@
     height: 40px;
     margin-top: -30%;
 }
+.containerCadastro .cont .textSeja{
+    margin-top: 5px;
+}
+.containerCadastro .cont .textCampos{
+    margin-top: 5px;
+}
 .textSeja{
     background: none;
     text-align: center;

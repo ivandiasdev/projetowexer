@@ -11,14 +11,14 @@ export function Cadastro() {
                 <p className='textSeja'>Seja bem-vindo(a)!</p>
                 <p className='textCampos'>Preencha os campos para se cadastrar</p>
             </div>
-            <form className='formCad'>
+            <div className='formCad'>
                 <label className='textNameCad'>Nome
                     <input type="text" placeholder='Daniel Silva' name='name'/>
                 </label>
                 <label className='textNameCad'>E-mail
                     <input type="email" placeholder="daniel.wexer@wexer.com.br" name='email'/>
                 </label>
-            </form>
+            </div>
             <Link className='btnCad' to='/senha'>Prosseguir <img className='MaskCad' src={Mask} /></Link>
         </section>
     )
