@@ -1,0 +1,16 @@
+.containerHome .containerMenu{
+    position: fixed;
+}
+.containerHome .AppMenu{
+    display: grid;
+}
+.containerHome .containerMenuLateral{
+    margin-top: -643px;
+    position: fixed;
+}
+.containerHome .PageOneContainer{
+    margin-left: 70px;
+}
+.containerHome .PageOneTop{
+    margin-top: 65px;
+}

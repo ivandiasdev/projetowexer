@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+
+*{
+    border: none;
+    left: none;
+    background: #E5E5E5;
+    align-items: center;
+    font-family: Roboto;
+}
+
+.container{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background: #017849;
+    border-radius: 16px;
+    width: 610px;
+    height: 610px;
+    left: 30%;
+    top: 30px;
+}
+.container img{
+    background: none;
+    width: 250px;
+    height: 100px;
+    margin-top: 20px;
+}
+.form{
+    background: #017849;
+    padding: 30px;
+}
+label{
+    background: #017849;
+
+}
+
+input{
+    box-sizing: border-box;
+    padding: 10px;
+    display: flex;
+    height: 47px;
+    width: 380px;
+    background: #FFFFFF;
+    flex-direction: column;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+.btn{ 
+    background: none;
+    width: 370px;
+    height: 40px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 16px;
+    border: 1px solid;
+    border-radius: 15px;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 19%;
+    top: 75%;
+}
+.btn:hover{
+    background: #039259;
+}
+
+.textName{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+
+}
+.btnEsqueci{
+    font-size: 15px;
+    color: #FFFFFF;
+    background: none;
+    text-align: right;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.btnEsqueci:hover{
+    text-decoration: underline;
+}
+.btnCadastro{
+    background: none;
+    text-align: center;
+    color: #FFFFFF;
+    cursor: pointer;
+    margin-bottom: 24px;
+    position: absolute;
+    font-weight: 700;
+    font-size: 18px;
+    left: 32%;
+    top: 87%;
+    text-decoration: none;
+}
+.btnCadastro:hover{
+    text-decoration: underline;
+}

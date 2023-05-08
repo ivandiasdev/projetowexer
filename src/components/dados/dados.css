@@ -1,0 +1,178 @@
+h1{
+    font-family: 'roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 27px;
+    display: flex;
+    align-items: center;
+    color: #4F4F4F;
+
+}
+.ContainerDados{
+    width: 1050px;
+    height: 1284px;
+    background: white;
+    border-radius: 8px;
+}
+.ContainerDados .TituloDados{
+    background: white;
+    display: flex;
+    padding: 20px;
+}
+.ContainerDados .TituloDados p {
+    margin: 10px;
+    width: 200px;
+    height: 53px;
+    background: white;
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #017849;
+    border-bottom: 1px solid #017849;
+}
+.ContainerDados .TituloDados .ButtonSalvar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 126px;
+    height: 48px;
+    background: #00995D;
+    border-radius: 24px;
+    filter: drop-shadow(0px 4px 2px rgba(0, 0, 0, 0.15));
+    margin-left: 120px;
+    color: white;
+}
+.ContainerDados .TituloDados .ButtonSalvar span{
+    background: #00995D;
+}
+.ContainerDados .TituloDados .ButtonSalvar img{
+    background: #00995D;
+    margin-right: 20px;
+}
+.ContainerDados .TituloDados .ButtonRetornar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 232px;
+    height: 48px;
+    background: #F2F2F2;
+    border: 1px solid #828282;
+    box-shadow: 0px 4px 2px rgba(0, 0, 0, 0.15);
+    border-radius: 24px;
+    margin-left: 10px;
+    color: #4F4F4F;
+}
+.ContainerDados .TituloDados .ButtonRetornar span{
+    background: #F2F2F2;
+}
+.ContainerDados .TituloDados .ButtonRetornar img{
+    background: #F2F2F2;
+    margin-right: 20px;
+}
+.ContainerDados .DadosGerais{
+    background: #017849;
+    margin-left: 30px;
+    border-radius: 8px;
+    height: 60px;
+    width: 920px;
+    display: flex;
+    margin-top: 15px;
+}
+.ContainerDados .DadosGerais .TituloDados{
+    background: #017849;
+    display: flex;
+    color: white;
+    margin-left: 15px;
+}
+.ContainerDados .DadosGerais img{
+    background: #017849;
+    margin-left: 70%;
+}
+.ContainerDados .DadosGerais .TituloAdd{
+    background: #017849;
+    margin-left: 73%;
+}
+.ContainerDados .DadosGerais .TituloAddd{
+    background: #017849;
+    margin-left: 72%;
+}
+.ContainerDados .DadosObs{
+    background: white;
+    display: flex;
+    flex-direction: column;
+    align-items: normal;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+.ContainerDados .DadosObs p{
+    background: white;
+}
+.ContainerDados .DadosObs textarea{
+    margin-top: 5px;
+    background: white;
+    box-sizing: border-box;
+    width: 920px;
+    height: 158px;
+    background: #FFFFFF;
+    border: 1px solid #BDBDBD;
+    border-radius: 8px;
+}
+.ContainerDados .FormularioDados{
+    background: white;
+    margin: 5px;
+    margin-left: 30px;
+    width: 920px;
+}
+
+.ContainerDados .TituloRodape{
+    background: white;
+    display: flex;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+.ContainerDados .TituloRodape .ButtonSalvar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 126px;
+    height: 48px;
+    background: #00995D;
+    border-radius: 24px;
+    filter: drop-shadow(0px 4px 2px rgba(0, 0, 0, 0.15));
+    color: white;
+}
+.ContainerDados .TituloRodape .ButtonSalvar span{
+    background: #00995D;
+}
+.ContainerDados .TituloRodape .ButtonSalvar img{
+    background: #00995D;
+    margin-right: 20px;
+}
+.ContainerDados .TituloRodape .ButtonRetornar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 232px;
+    height: 48px;
+    background: #F2F2F2;
+    border: 1px solid #828282;
+    box-shadow: 0px 4px 2px rgba(0, 0, 0, 0.15);
+    border-radius: 24px;
+    margin-left: 10px;
+    color: #4F4F4F;
+}
+.ContainerDados .TituloRodape .ButtonRetornar span{
+    background: #F2F2F2;
+}
+.ContainerDados .TituloRodape .ButtonRetornar img{
+    background: #F2F2F2;
+    margin-right: 20px;
+}

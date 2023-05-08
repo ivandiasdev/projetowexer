@@ -1,0 +1,42 @@
+form{
+    display: flex;
+    background: white;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1rem;
+    margin-top: 10px;
+}
+.InputsDadosOne,
+.InputsDadosTwu,
+.InputsDadosTry {
+    grid-column: span 1;
+}
+.InputsDadosOne{
+    background: white;
+} 
+.InputsDadosOne label{
+    background: white;
+} 
+.InputsDadosOne input{
+    width: 280px;
+}
+.InputsDadosTwu{
+    background: white;
+    margin-left: 15px;
+} 
+.InputsDadosTwu label{
+    background: white;
+} 
+.InputsDadosTwu input{
+    width: 280px;
+}
+.InputsDadosTry{
+    background: white;
+    margin-left: 25px;
+} 
+.InputsDadosTry label{
+    background: white;
+} 
+.InputsDadosTry input{
+    width: 280px;
+}

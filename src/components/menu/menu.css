@@ -1,0 +1,19 @@
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+.containerMenuLateral{
+    margin-top: 6.0%;
+    background: white;
+    width: 80px;
+    height: 1122px;
+    background: #00995D;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+}
+.containerMenuLateral img{
+    background: none;
+    margin-top: 40px;
+}

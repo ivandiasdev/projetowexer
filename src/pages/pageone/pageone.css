@@ -1,0 +1,166 @@
+.PageOneContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.PageOneTop{
+    background: #017849;
+    width: 792px;
+    height: 241px;
+    border-radius: 0px 0px 16px 16px;
+    display: flex;
+}
+.PageOneContainer .PageOneTop .PagenOneLogo{
+    background: #017849;
+}
+.PageOneContainer .PageOneTop .PagenOneLogo span{
+    background: #017849;
+}
+.PageOneContainer .PageOneTop .PagenOneLogo span img{
+    background: #017849;
+    width: 218px;
+    height: 200px;
+    margin-bottom: 10px;
+}
+.PageOneContainer .PageOneTop .PageOneText{
+    background: #017849;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+.PageOneContainer .PageOneTop .PageOneText h1{
+    background: #017849;
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 42px;
+    color: white;
+    margin: 10px;
+}
+.PageOneContainer .PageOneTop .PageOneText p{
+    background: #017849;
+    color: white;
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    margin: 3px;
+}
+
+.PageOneContainer .PageOneHed{
+    background: white;
+    width: 792px;
+    height: 597px;
+    margin: 30px;
+    border-radius: 16px 16px 0px 0px;
+}
+.PageOneContainer .PageOneHed .PageContainerMenu{
+    background: white;
+}
+.PageOneContainer .PageOneHed .PageContainerMenu .PageMenuButton{
+    background: white;
+}
+.PageOneContainer .PageOneHed .PageContainerMenu button{
+    background: white;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 197px;
+    height: 52px;
+    background: #017849;
+    border-radius: 30px;
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    margin-left: 21px;
+    margin-top: 24px;
+}
+.PageOneContainer .PageOneHed .ContainerTable {
+    background: white;
+    width: 744;
+    height: 335px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 45px;
+}
+.PageOneContainer .PageOneHed .ContainerTable table{
+    background: white;
+    width: 744;
+    height: 335px;
+}
+.PageOneContainer .PageOneHed .ContainerTable th{
+    background: white;
+    border: 1px black solid;
+    width: 145px;
+}
+.PageOneHed .PageContainerMenu .PageMenuButton{
+    display: flex;
+    background: white;
+    flex-direction: row;
+}
+.PageOneHed .PageContainerMenu .PageMenuButton .PageContainerFiltraPequisar{
+    background: white;
+}
+.PageOneHed .PageContainerMenu .PageMenuButton .PageContainerFiltraPequisar input{
+    background: white;
+    width: 260px;
+    height: 48px;
+    border: 1px solid #BDBDBD;
+    border-radius: 24px 0px 0px 24px;
+    gap: 10px;
+    margin-left: 170px;
+    margin-top: 40px;
+}
+.PageOneHed .PageContainerMenu .PageMenuButton .PageContainerFiltraPequisarButton{
+    background: white;
+}
+.PageOneHed .PageContainerMenu .PageMenuButton .PageContainerFiltraPequisarButton input{
+    background: white;
+    color: white;
+    width: 125px;
+    height: 48px;
+    background: #00995D;
+    border-radius: 0px 30px 30px 0px;
+    margin-top: 40px;
+}
+.PageOneHed .PageContainerMenu  p{
+    background: white;
+    margin-left: 400px;
+    margin-top: -10px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 15px;
+    color: #017849;
+}
+
+
+.minha-tabela {
+    width: 744px;
+    height: 335px;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
+
+.minha-tabela td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+    width: 80px;
+}
+
+  /* CSS para estilizar a segunda coluna */
+  .minha-tabela td:nth-child(2) {
+    font-weight: bold;
+    background: white;
+    height: 20px;
+  }

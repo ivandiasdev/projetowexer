@@ -1,0 +1,116 @@
+
+
+.container{
+    width: 589px;
+    height: 1077px;
+    top: 5%;
+    left: 30%;
+    position: absolute;
+    background: #017849;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 16px;
+    padding: 2%;
+}
+.topo {
+    background: none;
+    display: flex;
+}
+.topo img {
+    width: 178px;
+    height: 71px;
+    background: none;
+    margin-top: 10px;
+}
+.topo p {
+    background: none;
+    margin-left: auto;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 22px;
+    color: #FFFFFF;
+    margin-top: 10px;
+}
+.complete{
+    background: none;
+    margin-top: 50px;
+} 
+span{
+    background: none;
+    margin-left: auto;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+.hr{
+    background: none;
+    height: 1px;
+    background: #FFFFFF;
+}
+.form{
+    background: none;
+    display: flex;
+    color: #FFFFFF;
+    margin-top: 10px;
+    align-items: flex-start;
+    text-align: left;
+}
+.form label {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.textName{
+    background: none;
+}
+.textNumero{
+    background: none;
+    margin-left: 35px;
+}
+.textBairro{
+    background: none;
+    margin-left: -70px;
+}
+.input{
+    margin-top: 10px;
+    background: none;
+    width: 257px;
+    height: 48px;
+    background: #FFFFFF;
+    border: 1px solid #BDBDBD;
+    border-radius: 8px;
+    box-sizing: border-box;
+    display: flex;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.inputNumero{
+    margin-top: 10px;
+    background: none;
+    width: 100px;
+    height: 48px;
+    background: #FFFFFF;
+    border: 1px solid #BDBDBD;
+    border-radius: 8px;
+    box-sizing: border-box;
+    display: flex;
+    margin-bottom: 10px;
+
+}
+.inputBairro{
+    margin-top: 10px;
+    background: none;
+    width: 148px;
+    height: 48px;
+    background: #FFFFFF;
+    border: 1px solid #BDBDBD;
+    border-radius: 8px;
+    box-sizing: border-box;
+    display: flex;
+    margin-bottom: 10px;
+}

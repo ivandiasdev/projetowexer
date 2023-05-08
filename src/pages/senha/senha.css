@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+
+*{
+    border: none;
+    left: none;
+    align-items: center;
+    font-family: Roboto;
+    background: #E5E5E5;
+}
+.containerSenha{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 522px;
+    height: 534px;
+    border-radius: 16px;
+    position: absolute;
+    left: 30%;
+    top: 60px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 16px;
+}
+.cont{
+    background: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.cont img{
+    background: none;
+    width: 182px;
+    height: 40px;
+    margin-top: -30%;
+}
+.textSeja{
+    background: none;
+    text-align: center;
+    width: 177px;
+    height: 21px;
+    color: #00995D;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 22px;
+}
+.textCampos{
+    background: none;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #00995D;
+    margin-top: -5%;
+}
+.textNameSenha{
+    background: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    align-items: center;
+    color: #4F4F4F;
+}
+.formSenha{
+    background: none;
+    text-align: none;
+}
+input{
+    box-sizing: border-box;
+    padding: 10px;
+    display: block;
+    height: 47px;
+    width: 380px;
+    background: #FFFFFF;
+    border: 1px solid #BDBDBD;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+.btnSenha{ 
+    font-size: 16px;
+    color: #FFFFFF;
+    Width: 192px;
+    Height: 48px;
+    Padding: 0px, 12px, 0px, 24px;
+    Gap: 13px;
+    flex-direction: row;
+    padding: 0px 12px 0px 24px;
+    background: #00995D;
+    box-shadow: 0px 4px 2px rgba(0, 0, 0, 0.15);
+    border-radius: 24px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 257px;
+    top: 400px;
+    cursor: pointer;
+}
+.btnSenha:hover{
+    background: #02a564;
+}
+.MaskSenha{
+    background: none;
+    width: 16px;
+    height: 14px;
+    margin-top: -0px;
+}
+
+.regras{
+    width: 380px;
+    background: none;
+    align-items: left;
+    align-items: start;
+    text-align: left; 
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+}
+
+.regras p{
+    background: none;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 17px;
+    color: #6F6F6E;
+    margin-bottom: -5px;
+}
+span{
+    background: none;
+    color: red;
+}
