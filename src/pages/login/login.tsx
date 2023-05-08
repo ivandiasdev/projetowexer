@@ -4,7 +4,7 @@ import { Link } from "react-router-dom"
 
 export function Login() {
     return (
-            <section className='container'>
+            <section className='containerLogin'>
                 <img src={Logo}/>
                 <form className='form'>
                     <label className='textName'>Login
